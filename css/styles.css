@@ -1,0 +1,53 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: grey;
+}
+
+p {
+	color: white;
+	margin-left: 45%;
+    margin-top: 40%;
+}
+
+.container1 {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+    display: flex;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+    display: flex;
+}
+
+.container3 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+    display: flex;
+}
+
+.item1 {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}
+
+.item2 {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+
+.item3 {
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}
